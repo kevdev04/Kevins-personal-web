@@ -14,10 +14,11 @@ const Hero = () => {
         <div className="mb-4 mx-auto lg:mx-0 text-center lg:text-left">
           <Button
             text="About"
+            url="/about"
             svg={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="icon icon-tabler icon-tabler-arrow-bar-to-down"
+                className="animate-bounce icon icon-tabler icon-tabler-arrow-bar-to-down"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"

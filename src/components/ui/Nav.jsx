@@ -3,12 +3,12 @@ const Nav = () => {
     <nav className="flex p-3 h-16 md:h-12 w-full md:w-1/2">
       <ul className="flex flex-row justify-around w-full items-center text-2xl md:text-3xl">
         <li>
-          <a className="hover:text-sky-600" href="/about-us">
+          <a className="hover:text-sky-600" href="/about">
             About Me
           </a>
         </li>
         <li>
-          <a className="hover:text-sky-600" href="/">
+          <a className="hover:text-sky-600" href="/projects">
             Projects
           </a>
         </li>
