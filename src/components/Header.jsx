@@ -5,7 +5,7 @@ const Header = () => {
 	return (
 		<header className="flex flex-col md:flex-row items-center justify-between p-4 border-b border-black dark:bg-white">
 			<div className="flex items-center">
-				<a href="/" class="text-white font-bold m-2">
+				<a href="/" className="text-white font-bold m-2">
 					<img src="/k.svg" alt="Logo" />
 				</a>
 				<Button

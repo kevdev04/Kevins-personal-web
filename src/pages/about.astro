@@ -1,29 +1,61 @@
 ---
-import Button from "../components/ui/Button";
 import Layout from "../layouts/Layout.astro";
 import BackHome from "../components/ui/BackHome.astro";
+
 ---
 
-<Layout title="About me" >
-  <main class="py-8 h-screen">
-    <BackHome symbol="&#129124;" />
-    <div class="container mx-auto p-4">
-      <h1 class="text-5xl font-semibold mb-4">Introducing myself</h1>
-      <p class="text-black text-2xl leading-loose">
-        Im a 19 years old Student just having fun with Software. Since i was a
-        little kid, i knew that i wanted to be a Software Engineer but in that
-        time i used to call it a "Hacker", My background is funny because i
-        started creating Minecraft Servers and i learned a lot of things about
-        Networking, Files Managment etc. I enjoy to learn new things and i like to
-        share my knowledge with other people as well as share experiences and point of views about different topics.
+<Layout title="About me">
+  <main class="py-8">
+    <BackHome symbol="<" name="home" />
+    <div class="container mx-auto p-4 mb-8 tracking-wide leading-loose">
+      <h1 class="text-3xl lg:text-5xl font-semibold mb-4">Introducing myself</h1>
+      <p class="text-black text-lg lg:text-2xl leading-loose">
+        I'm a 19-year-old student just having fun with software. Since I was a
+        little kid, I knew that I wanted to be a software engineer, but in that
+        time, I used to call it a "Hacker". My background is funny because I
+        started creating Minecraft servers, and I learned a lot of things about
+        networking, file management, etc. I enjoy learning new things, and I like
+        to share my knowledge with other people as well as share experiences and
+        points of view about different topics.
       </p>
     </div>
-    <div class="container mx-auto p-4">
-      <h1 class="text-5xl font-semibold mb-4">My Experience</h1>
-      <p class="text-black text-2xl leading-loose">
-        I have worked as a freelancer in projects of Saas for restaurants in my city, i've been gainign experience in the field of web development and i'm currently working on my personal development exlporing for new opportunities. 
+    <div class="container mx-auto p-4 mb-8 tracking-wide leading-loose">
+      <h1 class="text-3xl lg:text-5xl font-semibold mb-4">My Experience</h1>
+      <p class="text-black text-lg lg:text-2xl leading-loose">
+        I have worked as a freelancer on projects of SaaS for restaurants in my
+        city. I've been gaining experience in the field of web development, and
+        I'm currently working on my personal development exploring new
+        opportunities.
       </p>
     </div>
-    <BackHome symbol="&#129127;" />
-</main>
+    <div class="container mx-auto p-4 mb-8 tracking-wide leading-loose">
+      <h1 class="text-3xl lg:text-5xl font-semibold mb-4">Lifestyle</h1>
+      <p class="text-black text-lg lg:text-2xl leading-loose">
+        I think that in life you gotta have a balance between work and fun. I like the gym, hang out with friends, go concerts, soccer, spend time with my family, with my dog, go movies, etc.
+        <br />
+        <br />
+        But when its moment to work, I like to be focused and give my best.
+        I spend a good time learning new things, reading books, and watching tutorials.
+        And i specially like to work on my personal projects.
+        <br />
+        <br />
+        I know what i want and what i have to do to get it, so i'm working on it.
+      </p>
+    </div>
+    <div class="flex flex-col lg:flex-row justify-center ml-40">
+      <img
+        class="mx-auto lg:ml-0 drop-shadow-lg"
+        src="/row3.png"
+        width={350}
+        alt=""
+      />
+      <img
+        class="mx-auto lg:ml-0 drop-shadow-lg mt-4 lg:mt-0"
+        src="/row4.png"
+        width={350}
+        alt=""
+      />
+    </div>
+    <BackHome symbol="<" name="home" />
+  </main>
 </Layout>
