@@ -2,12 +2,11 @@
 const { name, url, img } = Astro.props;
 ---
 
-<a class="flex flex-col gap-4 mb-8 rounded-md bg-gray-200 cursor-pointer transform hover:scale-110 transition-transform" href={url}>
+<a class="flex flex-col gap-4 mb-8 rounded-md bg-white cursor-pointer transform hover:scale-110 transition-transform" href={url}>
   <img
     src={img}
     alt={name}
-    class="w-full h-full object-cover rounded-md"
+    class="object-cover rounded-t-md"
   />
-  <p class="text-2xl flex justify-center items-center">{name}</p>
-  <p class="flex justify-center items-center">lorem ipsum </p>
+    <p class="text-3xl text-sky-600 font-bold flex flex-col justify-center items-center p-2">{name}</p>
 </a>
