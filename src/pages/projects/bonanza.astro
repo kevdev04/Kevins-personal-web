@@ -1,0 +1,36 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import BackHome from "../../components/ui/BackHome.astro";
+---
+
+<Layout title="Bonanza">
+	<main class="flex flex-col items-center justify-center m-4 p-4">
+		<h1 class="text-3xl font-bold m-2 p-2">Bonanza Mobile App</h1>
+
+		<section class="flex flex-row items-start justify-center w-1/2 m-2 p-2">
+			<img width="450" src="/hacky.png" alt="bonanza mobile app" />
+			<h2>
+				Bonanza's Payment Module is the result of a hackathon winner project
+				developed by an awesome team that i was part of.
+				<br />
+        <br />
+        We developed a mobile app module ready to be integrated with the main application that allowes users to pay remotely with bar code in Oxxo convinience stores around all mexico.
+        <br />
+        <br />
+        The app was developed with React Native and Expo CLI Enviroment, and the backend with Java and SpringBoot.
+        <br />
+        <br />
+        The app was developed in 32 hours and won the first place in the hackathon.
+        My role in the project was the frontend side of the app.
+			</h2>
+		</section>
+		<section class="flex flex-row items-center justify-between w-1/2 m-4 p-2">
+			<a
+				class="bg-black text-white w-full cursor-pointer h-9 rounded flex justify-center items-center" href="https://github.com/CaroJimenez/Hackathon-FrontV2" target="_blank"
+				>GitHub
+        </a
+			>
+		</section>
+    <BackHome symbol="<<" />
+	</main>
+</Layout>
