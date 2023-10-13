@@ -1,0 +1,50 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import BackHome from "../../components/ui/BackHome.astro";
+---
+
+<Layout title="Rachev Store">
+	<main class="flex flex-col items-center justify-center m-4 p-4">
+		<h1 class="text-3xl font-bold m-2 p-2">Rachev Store</h1>
+
+		<section class="flex flex-row items-start justify-center w-1/2 m-2 p-2">
+			<img width="450" src="/rachev.png" alt="bonanza mobile app" />
+			<h2>
+				Rachev Store is my first colaborative project and was developed at the
+				same time that showing to my partner how to use Responsive Design, it
+				was a great experience and I learned a lot about how to work in a team.
+				<br />
+				<br />
+				 We developed the idea based in a famous store and we wanted to make it
+				minimalistic and easy to use. 
+        <br />
+				<br />
+        The Web App is a store where you can buy
+				products and delete them from the cart. also you can see the total price
+				of the products and the total of products in the cart.
+				<br />
+				<br />
+				 The Web was developed with HTML5, CSS3 and JavaScript to make the app
+				dynamic.
+        <br />
+				<br />
+        The name Rachev comes from the name of my partner and me which are Rachelle and Kevin.
+			</h2>
+		</section>
+		<section class="flex flex-row items-center gap-4 w-1/2 m-4 p-2">
+			<a
+				class="bg-black text-white w-full cursor-pointer h-9 rounded flex justify-center items-center"
+				href="https://github.com/kevdev04/Rachev-store"
+				target="_blank"
+				>GitHub
+			</a>
+			<a
+				class="bg-sky-600 text-white w-full cursor-pointer h-9 rounded flex justify-center items-center"
+				href="https://rachev-store.vercel.app/"
+				target="_blank"
+				>Demo
+			</a>
+		</section>
+		<BackHome symbol="<<" />
+	</main>
+</Layout>

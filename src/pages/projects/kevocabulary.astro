@@ -1,0 +1,41 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import BackHome from "../../components/ui/BackHome.astro";
+---
+
+<Layout title="Kevocabulary">
+	<main class="flex flex-col items-center justify-center m-4 p-4">
+		<h1 class="text-3xl font-bold m-2 p-2">Kevocabulary</h1>
+
+		<section class="flex flex-row items-start justify-center w-1/2 m-2 p-2">
+			<img width="450" src="/kevocabulary.png" alt="bonanza mobile app" />
+			<h2>
+				Kevocabulary is one of my first and most proud projects. It is a web
+				english learning platform that I developed to improve my english skills.
+				<br />
+				<br />
+				I learned a lot of things in the process of developing this project,
+				such as: HTML, CSS, JavaScript, and basic conceps of how store data to
+				show it in the web.
+				<br />
+				<br />
+				You can check the source code and the demo in the links below.
+			</h2>
+		</section>
+		<section class="flex flex-row items-center gap-4 w-1/2 m-4 p-2">
+			<a
+				class="bg-black text-white w-full cursor-pointer h-9 rounded flex justify-center items-center"
+				href="https://github.com/kevdev04/Kevocabulary"
+				target="_blank"
+				>GitHub
+			</a>
+			<a
+				class="bg-sky-600 text-white w-full cursor-pointer h-9 rounded flex justify-center items-center"
+				href="https://learnkev.pages.dev/"
+				target="_blank"
+				>Demo
+			</a>
+		</section>
+		<BackHome symbol="<<" />
+	</main>
+</Layout>
