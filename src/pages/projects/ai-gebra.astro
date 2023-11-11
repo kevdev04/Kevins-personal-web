@@ -1,0 +1,54 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import BackHome from "../../components/ui/BackHome.astro";
+---
+
+<Layout title="AI-gebra">
+	<main class="flex flex-col items-center justify-center m-4 p-4">
+		<h1 class="text-3xl font-bold m-2 p-2">AI-gebra</h1>
+
+		<section class="flex flex-row items-start justify-center w-1/2 m-2 p-2">
+			<img width="450" src="/ai-gebra.png" alt="ai-gebra web app" />
+			<h2>
+				AI-gebra is a web app that uses the power of AI to solve math problems.
+				<br />
+				This application streamlines the process of solving complex
+				mathematical equations by providing step-by-step explanations and
+				examples, fostering a deeper understanding of mathematical concepts.
+				<br />
+				<br />
+        <span class="font-bold">Features:</span>
+        <br />
+				AI-powered solutions and comprehensive explanations for a
+				wide range of mathematical equations. 
+        <br />
+        <br />
+        Seamless integration of the OpenAI
+				API for precise math problem recognition and analysis. 
+        <br />
+        <br />
+        User-friendly
+				interface for a smooth and intuitive experience on both web and mobile
+				platforms. 
+        <br />
+        <br />
+        Built-in support for React and React Native, ensuring a
+				responsive and dynamic frontend. 
+        <br />
+        <br />
+        Backend infrastructure developed using
+				fastAPI, delivering robust and efficient performance.
+			</h2>
+		</section>
+		<section class="flex flex-row items-center gap-4 w-1/2 m-4 p-2">
+			<a
+				class="bg-black text-white w-full cursor-pointer h-9 rounded flex justify-center items-center"
+				href="https://github.com/kevdev04/ai-gebra"
+				target="_blank"
+				>GitHub
+			</a>
+			
+		</section>
+		<BackHome symbol="<<" />
+	</main>
+</Layout>

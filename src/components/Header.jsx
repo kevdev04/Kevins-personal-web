@@ -10,6 +10,7 @@ const Header = () => {
 				</a>
 				<Button
 					text="Resume"
+					url="https://drive.google.com/file/d/1-wAhYfLVP-uWp5RUz4HWFqEaQJ9F5fqa/view?usp=sharing"
 					svg={
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
